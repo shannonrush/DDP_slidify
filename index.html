@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
     media="only screen and (max-device-width: 480px)" >
   <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
-  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/.css" />
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
   <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/application.css"></link>
 <link rel=stylesheet href="./assets/css/ribbons.css"></link>
 
@@ -44,19 +44,71 @@
     <!-- SLIDES -->
     <slide class="" id="slide-1" style="background:;">
   <hgroup>
-    <h2>Survival on the Titanic</h2>
+    <h2>Introduction</h2>
   </hgroup>
   <article data-timings="">
-    <p>Easy to use survival analysis tool
-Shannon Rush</p>
+    <ul>
+<li><p>The sinking of the RMS Titanic has been a subject of interest for over 100 years, in both academia and popular culture.</p></li>
+<li><p>The demographics of those who survived versus those who tragically perished provides insight into the way society of the early 1900s valued varying socio-economic classes, age groups, and genders.</p></li>
+<li><p>The <a href="https://shanfu.shinyapps.io/DDP_shiny/">Titanic Survival Analysis Application</a> is an easy to use interface for analyzing the survival rates of Titanic passengers in demographics of your choosing.</p></li>
+</ul>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
 <slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>The Data</h2>
+  </hgroup>
   <article data-timings="">
-    
+    <ul>
+<li><p>The dataset used for this application was obtained from the Kaggle competition <a href="http://www.kaggle.com/c/titanic-gettingStarted">Titanic: Machine Learning from Disaster</a></p></li>
+<li><p>Reproducible markdown of all data processing is <a href="https://github.com/shannonrush/DDP_shiny/blob/master/data/data_processing.Rmd">available on Github</a> </p></li>
+<li><p>The resulting dataset consists of 714 passenger observations with 4 features</p></li>
+</ul>
+
+<pre><code class="r">    summary(data)
+</code></pre>
+
+<pre><code>##    survived             class         gender         age      
+##  Length:714         Min.   :1.00   female:261   Min.   : 0.0  
+##  Class :character   1st Qu.:1.00   male  :453   1st Qu.:20.0  
+##  Mode  :character   Median :2.00                Median :28.0  
+##                     Mean   :2.24                Mean   :29.7  
+##                     3rd Qu.:3.00                3rd Qu.:38.0  
+##                     Max.   :3.00                Max.   :80.0
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Features</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="assets/img/screenshot.png" alt=""></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Thank You!</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Thank you very much for viewing this presentation! </p>
+
+<ul>
+<li><a href="https://shanfu.shinyapps.io/DDP_shiny/">Titanic Survival Analysis Application</a></li>
+<li><a href="https://github.com/shannonrush/DDP_shiny">Titanic Survival Analysis Github Repo</a></li>
+<li><a href="https://github.com/shannonrush/DDP_slidify">This Presentation&#39;s Github Repo</a></li>
+<li><a href="http://www.kaggle.com/c/titanic-gettingStarted">The Kaggle competition &#39;Titanic: Machine Learning from Disaster&#39;</a></li>
+</ul>
+
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -67,14 +119,26 @@ Shannon Rush</p>
     <ul>
       <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=1 title='Survival on the Titanic'>
+        data-slide=1 title='Introduction'>
          1
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title=''>
+        data-slide=2 title='The Data'>
          2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Features'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Thank You!'>
+         4
       </a>
     </li>
   </ul>

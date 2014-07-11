@@ -2,15 +2,32 @@ html {
     color: #777777 !important;
 }
 
-h1 {
+.title-slide h1 {
     color: #A1021C !important;
 }
 
-h2 {
+.title-slide h2 {
     color: black !important;
+    border-bottom:none;
 }
 
 .title-slide {
     background-color: #FFFFFF;
+}
+
+h2 {
+    color: #A1021C !important;
+    border-bottom: solid 1px #CCC;
+    margin-bottom: 30px;
+}
+
+ul {
+    width: 80%;
+    margin:auto;
+}
+
+a {
+    color: #A1021C;
+    border-bottom:none;
 }
 
