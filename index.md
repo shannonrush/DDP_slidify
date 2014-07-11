@@ -1,7 +1,7 @@
 ---
-title       : 
-subtitle    : 
-author      : 
+title       : Survival on the Titanic
+subtitle    : Analysis of survival on the Titanic based on passenger class, age, and gender
+author      : Shannon Rush
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
