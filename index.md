@@ -1,6 +1,6 @@
 ---
 title       : Survival on the Titanic
-subtitle    : Analysis of survival on the Titanic based on passenger class, age, and gender
+subtitle    : Easy to use survival analysis tool
 author      : Shannon Rush
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
